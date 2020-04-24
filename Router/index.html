@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Router</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1 style="text-align: center;">
+            Router!
+        </h1>
+        <h1 style="text-align: center;">
+           HOME
+        </h1>
+        <h2 style="text-align: center;">
+            <a href = "/#home">Home</a> <a href="/#about">About</a> <a href="/#contact">Contact Us</a>
+        </h2>
+        <main style="align-content: center; text-align: center; font-size: large;">
+            <div id = "fw-view">
+            This is the main content area.
+            </div> 
+        </main>
+    </body>
+
+    <script type="module">
+        import {main} from "./App/main.js";
+      
+        main(null);
+        /* window.onhashchange = function ()
+        {
+            window.console.log("The hash is: " + window.location.hash);
+        }
+        //window.location = "localhost:5500/#home"; */
+    </script>
+</html>
